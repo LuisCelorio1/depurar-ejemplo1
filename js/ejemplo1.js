@@ -12,6 +12,14 @@ var nombres=[];
 
 var NUMERO_NOMBRES=10;
 
+var lista ="";
+
+for(var i=0;i<10;i++){
+    nombres[i] = prompt ("Nombre");
+    lista += nombres[i]+" ";
+}
+
+console.warn(lista);
 
 
 
